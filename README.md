@@ -1,0 +1,5 @@
+This is a experiment for reinforcement learning, which conducts on CliffWalk. This project compares Q-Learning and SARSA in both CliffWalk and GridWindy environment, and below is a summary:
+
+To summarize, Q-learning shows lower average rewards and higher length compared with SARSA in grid world enviroment. This is because Q-learning takes more risk to find a shortest, or theoritically best solution. Because it gets higher chance of getting into "dangerous place" (such as the cliff in this environment), the expected(average) rewards are smaller.
+
+However, the difference between these two algorithms is not so evident in windy grid world, which contains more uncertainty and therefore reduces the advantage of SARSA. Also, it takes more efforts for both algorithms to reach goal state in windy grid world, which is reflected in their lengths and rewards.
